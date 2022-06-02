@@ -6,11 +6,11 @@
 
 public class FizzBuzz {
     void run(String[] args) {
-        if (args.length == 0) {
-            this.fizzBuzz(10);
-        } else {
+        if (args.length == 0) { // コマンドライン引数がないとき
+            this.fizzBuzz(10); // fizzBuzzメソッドに移動
+        } else { // コマンフォライン引数があるとき
             Integer num = Integer.valueOf(args[0]);
-            this.fizzBuzz(num);
+            this.fizzBuzz(num); // fizzBuzzメソッドに移動
         }
     }
 
