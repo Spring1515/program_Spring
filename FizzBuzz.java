@@ -17,13 +17,13 @@ public class FizzBuzz {
 
     void fizzBuzz(Integer num) {
         for (Integer i = 1; i <= 15; i++) {
-            if (i % 15 == 0) { // 3と5の両方で割れる時
+            if (i % 15 == 0) { // 3と5の両方で割れるとき
                 System.out.println("FizzBuzz");
-            } else if (i % 3 == 0) { // 3で割れる時
+            } else if (i % 3 == 0) { // 3で割れるとき
                 System.out.println("Fizz");
-            } else if (i % 5 == 0) { // 5で割れる時
+            } else if (i % 5 == 0) { // 5で割れるとき
                 System.out.println("Buzz");
-            } else { // それ以外の数字の時
+            } else { // それ以外の数字のとき
                 System.out.println(i);
             }
         }
