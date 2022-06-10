@@ -5,7 +5,7 @@
  * <<<<<<< HEAD
  *****/
 
-public class FizzBuzz {
+public class FizzBuzz { // コマンドライン
     void run(String[] args) {
         if (args.length == 0) { // コマンドライン引数がないとき
             this.fizzBuzz(10); // fizzBuzzメソッドに移動
